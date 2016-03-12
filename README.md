@@ -13,11 +13,11 @@ Follow [the official instructions](https://os.js.org/doc/manuals/man-package-man
 
 The Tetris Game
 
-![ScreenShot](https://raw.githubusercontent.com/os-js/OS.js-experimental/master/doc/tetris.png)
+![ScreenShot](https://raw.githubusercontent.com/os-js/OS.js-games/master/doc/tetris.png)
 
 ## Wolfenstein3D
 
 The Wolfenstein 3D Game
 
-![ScreenShot](https://raw.githubusercontent.com/os-js/OS.js-experimental/master/doc/wolfenstein.png)
+![ScreenShot](https://raw.githubusercontent.com/os-js/OS.js-games/master/doc/wolfenstein.png)
 
