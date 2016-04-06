@@ -424,7 +424,7 @@
     }
 
     function frame() {
-      if ( !self.running ) {
+      if ( !self.running || !ctx || !canvas ) {
         return;
       }
 
