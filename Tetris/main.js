@@ -444,6 +444,10 @@
   };
 
   ApplicationTetrisWindow.prototype._onKeyEvent = function(ev, type) {
+    if ( !canvas ) {
+      return;
+    }
+
     if ( type === 'keydown' ) {
       var handled = false;
       if (playing) {
@@ -465,6 +469,10 @@
   };
 
   ApplicationTetrisWindow.prototype._onResize = function() {
+    if ( !canvas ) {
+      return;
+    }
+
     canvas.width   = canvas.clientWidth;  // set canvas logical size equal to its physical size
     canvas.height  = canvas.clientHeight; // (ditto)
     ucanvas.width  = ucanvas.clientWidth;
