@@ -1,14 +1,14 @@
 {
-  "className":  "ApplicationTetris",
-  "name":       "Tetris",
-  "mime":       null,
-  "icon":       "./icon.png",
-  "category":   "games",
-  "preload":    [
+  "className": "ApplicationTetris",
+  "name": "Tetris",
+  "mime": null,
+  "icon": "./icon.png",
+  "category": "games",
+  "build": {
+    "copy": ["icon.png"]
+  },
+  "preload": [
     {"src": "main.js", "type": "javascript"},
     {"src": "main.css", "type": "stylesheet"}
   ]
 }
-
-
-
