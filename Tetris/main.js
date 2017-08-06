@@ -27,6 +27,7 @@
  * @author  Anders Evenrud <andersevenrud@gmail.com>
  * @licence Simplified BSD License
  */
+const DOM = OSjs.require('utils/dom');
 const Window = OSjs.require('core/window');
 const Application = OSjs.require('core/application');
 
@@ -487,16 +488,16 @@ class ApplicationTetrisWindow extends Window {
 
     reset();
 
-    canvas  = Utils.$remove(canvas);
+    canvas  = DOM.$remove(canvas);
     ctx     = null;
-    ucanvas = Utils.$remove(ucanvas);
+    ucanvas = DOM.$remove(ucanvas);
     uctx    = null;
     paused  = false;
     playing = false;
     start   = null;
 
-    this.$score = Utils.$remove(this.$score);
-    this.$rows = Utils.$remove(this.$rows);
+    this.$score = DOM.$remove(this.$score);
+    this.$rows = DOM.$remove(this.$rows);
     this.running = false;
 
     return super.destroy(...arguments);
